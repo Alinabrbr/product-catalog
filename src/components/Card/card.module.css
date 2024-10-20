@@ -43,3 +43,9 @@
 .card__title {
   align-items: center;
 }
+
+@media (max-width: 670px) {
+  .card__item:hover {
+    transform: none;
+  }
+}
