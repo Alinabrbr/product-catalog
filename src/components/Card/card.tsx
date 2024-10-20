@@ -9,7 +9,7 @@ export const Card = ({product, buttonAdd}:TCardProps) => {
 
   return (
     <li className={styles.card__item}>
-      <article className="card">
+      <article>
         <h2 className={styles.card__title}>{product.title}</h2>
         <img className="card__image" src={product.image} alt=""/>
         <div className={styles.card__item_info}>

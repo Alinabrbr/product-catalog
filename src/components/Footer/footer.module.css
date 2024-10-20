@@ -24,3 +24,13 @@ a:-webkit-any-link {
   text-decoration: none;
   color: #c19434;
 }
+
+@media (max-width: 670px) {
+  .footer {
+    padding: 15px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px
+  }
+}
